@@ -1,0 +1,229 @@
+/*masonry styles*/
+.grid{
+  /*max-width: 960px;*/
+  margin: 0 auto;
+  width: 90%;
+  margin-left: 6em;
+}
+.grid-item {
+  width: 160px;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+/*end masonry css*/
+
+body{
+  padding-bottom: 5em;
+}
+.bioimg{
+
+  width: 1em;
+  float: left;
+  margin: 0 40px 0px 0;
+}
+.biotxt{
+    float: none;
+    text-align: justify;
+    text-indent: 2em;
+}
+.biotxtdiv{
+  float: right;
+}
+.cv{
+  margin-left: 400px !important;
+}
+.collectionLinks{
+  margin-right: 260px !important;
+}
+.collectionBox {
+    position: relative;
+    overflow: hidden;
+    height: 392px;
+    width: auto;
+    margin-bottom: 1em;
+}
+.collectionBox h4 {
+    /*padding: 100px;*/
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+.collectionBox a{
+  width: 300px;
+ height: 100px;
+ padding: 20px;
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+
+ margin: -70px 0 0 -170px;
+}
+.collectionBox img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.6;
+}
+/*.soml{
+  background: url(images/TheStoryOfMyLife/TheWitchingHour.jpg) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: 20%;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: auto;
+   opacity: 0.6;
+
+}*/
+/*.collectionBoxText{
+  position: relative;
+  z-index: 2;
+  opacity: 1 !important;
+}*/
+/*.collectionBox{
+  height: 15em;
+  display: inline;
+}*/
+.thumbnail{
+  height: 10em;
+  width: 10em;
+}
+.bigpic{
+  /*position: relative; top: 0; left: 0;*/
+  max-width:100%;
+  max-height:100%;
+}
+.bigpicContainer{
+  height: 40em;
+}
+/*.smallpic{
+  position: absolute; top: 100px; left: 500px;
+}*/
+.navDiv{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+}
+.iframe{
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+.indenter{
+    text-indent: 50px;
+}
+.containerDiv{
+  margin-top: 5em;
+}
+
+.center{
+  text-align: center;
+}
+.link{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.name{
+  /*margin: 1em;*/
+  text-align: center;
+  display: inline-block;;
+}
+
+.link{
+  display: inline;
+  margin: 1em;
+}
+.marginDiv{
+  margin-top: 5em;
+}
+ul.topnav li.icon {display: none;}
+
+a{
+  text-decoration: none;
+  color: black !important;
+}
+ul{
+  list-style-type: none;
+}
+p{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  line-height: 2;
+}
+
+/*for tablets and smaller*/
+@media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+    /*masonry*/
+    .grid{
+      margin-left: 0px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .grid-item {
+      width: auto;;
+      margin-top: 1em;
+      text-align: center;
+    }
+    /*end masonry*/
+    .navDiv{
+      margin-top: 10em;
+    }
+    .marginDiv{
+      margin-top: 0em;
+    }
+
+    .link{
+      display: block;
+      margin: .5em;
+    }
+
+    ul.topnav li:not(:first-child) {display: none;}
+      ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+        top: 10px;
+        right: 40px;
+        position: absolute;
+      }
+
+      ul.topnav.responsive {position: relative;}
+     ul.topnav.responsive li.icon {
+       position: absolute;
+       right: 20px;
+       top: 35px;
+     }
+     ul.topnav.responsive li {
+       float: none;
+       display: inline;
+     }
+     ul.topnav.responsive li a {
+       display: block;
+       text-align: left;
+     }
+     .bigpic{
+       width: 100%;
+      height: auto;
+      margin-top: 30%;
+     }
+     .collectionLinks{
+       margin: auto !important;
+     }
+     .cv{
+       margin-left: 0px !important;
+     }
+}
