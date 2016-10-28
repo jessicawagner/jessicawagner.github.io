@@ -23,6 +23,9 @@
 /*.pajamas{
    transform: rotate(90deg);
 }*/
+.und{
+  text-decoration: underline;
+}
 .flip {
     -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
